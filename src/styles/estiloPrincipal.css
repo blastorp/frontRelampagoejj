@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.contenedorPrincipal{
+  width: 100vw;
+  margin: 20px 0;
+
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+  
+  .card-custom {
+    width: 200px;
+    min-height: 120px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+.form-label{
+    font-weight: bold;
+}
+
+  .card-custom label {
+   
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .card-custom .form-select,
+  .card-custom .form-control {
+    margin-top: 10px;
+  }
+  
+  .card-custom input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .row {
+    margin-top: 20px;
+  }
+
+  select, input{
+    min-width: 150px;
+    max-width: 200px;
+  }
+  
